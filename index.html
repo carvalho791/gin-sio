@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Force Gym - Vive Como Treinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo-text">FORCE GYM</h1>
+        <nav>
+            <p>
+                <a href="planos.html" class="nav-button">PLANOS</a> | 
+                <a href="conceito.html" class="nav-button">CONCEITO</a> | 
+                <a href="ginasios.html" class="nav-button">GINÁSIOS</a>
+            </p>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h2>FOCO</h2>
+                <h2>FORÇA</h2>
+                <h2>DISCIPLINA</h2>
+                <p>Desde 2,99€ por semana. Para sempre!</p>
+            </div>
+        </section>
+
+        <section class="nif-access">
+            <h3>T-shirts Oficiais</h3>
+            <p>Introduza o seu NIF para ver a nossa coleção:</p>
+            <input type="text" id="nifInput" maxlength="9" placeholder="111111111" autocomplete="off">
+            <br>
+            <button id="btnAceder" disabled>Ver T-shirts</button>
+            
+            <p id="msgErro" style="margin-top: 15px; font-weight: bold; min-height: 20px;"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

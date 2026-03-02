@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Force Gym - Nossos Ginásios</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .ginasios-header {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .ginasios-header h1 {
+            font-size: 3rem;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .ginasios-header span {
+            color: #e31b23;
+        }
+
+        .ginasios-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .clube-card {
+            background: #1a1a1a;
+            border: 1px solid #333;
+            padding: 25px;
+            border-radius: 5px;
+            text-align: left;
+            transition: 0.3s;
+        }
+
+        .clube-card:hover {
+            border-color: #e31b23;
+        }
+
+        .clube-card h3 {
+            color: #e31b23;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+
+        .clube-card p {
+            font-size: 0.9rem;
+            color: #ccc;
+            line-height: 1.4;
+        }
+
+        .clube-card .saber-mais {
+            color: #e31b23;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+        .back-nav { padding: 20px; text-align: left; }
+    </style>
+</head>
+<body>
+    <div class="back-nav">
+        <a href="index.html" class="nav-button">← VOLTAR</a>
+    </div>
+
+    <section class="ginasios-header">
+        <h1>CONHECES OS GINÁSIOS <span>FORCE GYM?</span></h1>
+    </section>
+
+    <main class="ginasios-grid">
+        <div class="clube-card">
+            <h3>Alvalade</h3>
+            <p>📍 R. Francisco Stromp 14<br>1600-464 Lisboa</p>
+            <a href="#" class="saber-mais">SABER MAIS</a>
+        </div>
+
+        <div class="clube-card">
+            <h3>Bobadela</h3>
+            <p>📍 Av. 25 de Abril 1011,<br>2750-512 Bobadela</p>
+            <a href="#" class="saber-mais">SABER MAIS</a>
+        </div>
+
+        <div class="clube-card">
+            <h3>Santa Iria de Azoia</h3>
+            <p>📍 Praceta Progresso Clube,<br>2725-079 Santa Iria de Azoia</p>
+            <a href="#" class="saber-mais">SABER MAIS</a>
+        </div>
+
+        <div class="clube-card">
+            <h3>Povoa de Santa Iria</h3>
+            <p>📍 C.C. Floresta Center Tapada das Mercês,<br>2725-535 Povoa de Santa Iria</p>
+            <a href="#" class="saber-mais">SABER MAIS</a>
+        </div>
+
+        <div class="clube-card">
+            <h3>Sacavem</h3>
+            <p>📍 R. Vitor Cordon 2,<br>2640-539 Sacavem</p>
+            <a href="#" class="saber-mais">SABER MAIS</a>
+        </div>
+
+        <div class="clube-card">
+            <h3>Loures</h3>
+            <p>📍 Rua 25 de Abril Nº8,<br>2670-482 Loures</p>
+            <a href="#" class="saber-mais">SABER MAIS</a>
+        </div>
+    </main>
+</body>
+</html>

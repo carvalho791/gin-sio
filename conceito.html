@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Force Gym - O nosso Conceito</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .conceito-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 80px 50px;
+            background-color: #0c0c0c;
+            min-height: 80vh;
+        }
+
+        .conceito-texto {
+            flex: 1;
+            text-align: left;
+            padding-right: 50px;
+        }
+
+        .conceito-texto h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .conceito-texto p {
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+
+        .conceito-grid {
+            flex: 1;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            border-left: 1px solid #333;
+            padding-left: 50px;
+        }
+
+        .item-beneficio {
+            text-align: center;
+        }
+
+        /* Simulação dos ícones com emojis ou texto, já que não temos as imagens dos ícones */
+        .icon {
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .item-beneficio h4 {
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .back-nav {
+            padding: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="back-nav">
+        <a href="index.html" class="nav-button">← VOLTAR</a>
+    </div>
+
+    <main class="conceito-wrapper">
+        <div class="conceito-texto">
+            <h1>CONHECES O<br><span style="color: #e31b23;">FORCE GYM?</span></h1>
+            <p>Aqui chegas onde queres, no ginásio e na vida. O nosso compromisso é com o teu resultado e a tua saúde mental.</p>
+        </div>
+
+        <div class="conceito-grid">
+            <div class="item-beneficio">
+                <span class="icon">🕒</span>
+                <h4>Horário Livre</h4>
+            </div>
+            <div class="item-beneficio">
+                <span class="icon">🏋️‍♂️</span>
+                <h4>8 Zonas de Treino</h4>
+            </div>
+            <div class="item-beneficio">
+                <span class="icon">👨‍🏫</span>
+                <h4>Personal Training</h4>
+            </div>
+            <div class="item-beneficio">
+                <span class="icon">🔓</span>
+                <h4>Sem Fidelização</h4>
+            </div>
+            <div class="item-beneficio">
+                <span class="icon">🇵🇹</span>
+                <h4>6 Ginásios em Lisboa</h4>
+            </div>
+            <div class="item-beneficio">
+                <span class="icon">🚲</span>
+                <h4>Equipamentos Topo de Gama</h4>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
